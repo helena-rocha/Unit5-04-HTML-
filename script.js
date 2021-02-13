@@ -1,7 +1,7 @@
 document.getElementById('random-button').addEventListener
-  ('click', reportResults)
+('click', reportResults)
 
-  function reportResults () {
-    alert(document.getElementById('input').value)
-    document.getElementById('background').style.backgroundColor = 'red'
-  }
+function reportResults () {
+  alert(document.getElementById('input').value)
+  document.getElementById('background').style.backgroundColor = 'red'
+}
